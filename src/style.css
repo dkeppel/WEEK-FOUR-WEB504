@@ -1,12 +1,15 @@
 .list-style-one {
     list-style-type: circle;
+    list-style-position: outside;
 }
 .list-style-two {
     list-style-type: square;
+    list-style-position: inside;
 }
 .list-style-three {
-    list-style-type: decimal;   
+    list-style-type: decimal;  
+    /* list-style-position: none;  Use if need to force style*/
 }
 .list-style-four {
-    
+    list-style-type: lower-alpha;
 }
