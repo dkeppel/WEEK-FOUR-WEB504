@@ -2,14 +2,21 @@
     list-style-type: circle;
     list-style-position: outside;
 }
+
 .list-style-two {
     list-style-type: square;
     list-style-position: inside;
 }
+
 .list-style-three {
     list-style-type: decimal;  
     /* list-style-position: none;  Use if need to force style*/
 }
+
+.list-style-three li {
+        list-style-image: url(https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800/https://blog.snappa.com/wp-content/uploads/2022/02/StockSnap-example-image.jpg);
+    }
+    
 .list-style-four {
     list-style-type: lower-alpha;
 }
